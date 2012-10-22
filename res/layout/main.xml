@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  <EditText 
+  		android:id="@+id/url"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:hint="http://youtube.com/"
+  		android:gravity="center_vertical"   
+     />
+  <Button 
+      android:id="@+id/start"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/url"
+      android:text="Start"
+      />
+
+
+</RelativeLayout>
